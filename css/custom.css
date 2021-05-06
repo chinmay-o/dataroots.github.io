@@ -7,9 +7,14 @@
   overflow: hidden;
 }
 
+.custom-logo {
+
+  width: 30%;
+}
+
 .wrap {
   position: absolute;
-  top: 50%;
+  top: 48%;
   left: 50%;
   width: 0;
   height: 0;
@@ -18,15 +23,10 @@
   animation: rotate 14s infinite linear;
 }
 
-@keyframes rotate {
-  100% {
-    transform: rotateY(360deg) rotateX(360deg);
-  }
-}
 .c {
   position: absolute;
-  width: 2px;
-  height: 2px;
+  width: 3px;
+  height: 3px;
   border-radius: 50%;
   opacity: 0;
 }
@@ -35,6 +35,12 @@
   animation: orbit1 14s infinite;
   animation-delay: 0.01s;
   background-color: red;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotateY(360deg) rotateX(360deg);
+  }
 }
 
 @keyframes orbit1 {
