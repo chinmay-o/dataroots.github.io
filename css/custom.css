@@ -26,6 +26,7 @@
   transform-style: preserve-3d;
   perspective: 1000px;
   animation: rotate 14s infinite linear;
+  z-index: -1;
 }
 
 .c {

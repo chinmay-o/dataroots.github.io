@@ -459,7 +459,7 @@ $(document).ready(function() {
 
 
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
              Sticky Header
       <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     window.onscroll = function() {
@@ -485,7 +485,7 @@ $(document).ready(function() {
         }
     }
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
            Input Count Up Button
     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
     $(".count-btn").on("click", function() {
@@ -577,7 +577,7 @@ $(document).ready(function() {
 
 
 
-    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+    /*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
            Smooth Scroll
     <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
@@ -597,17 +597,17 @@ $(document).ready(function() {
     });
 });
 
-/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>      
+/*>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
       Preloader Activation
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 $(window).load(function() {
-    setTimeout(function() {
-        $("#loading").fadeOut(500);
-    }, 1000);
+    // setTimeout(function() {
+    //     $("#loading").fadeOut(1800);
+    // }, 2200);
     setTimeout(function() {
         $("#loading").remove();
-    }, 2000);
+    }, 2200);
 });
 
 var lang = {
