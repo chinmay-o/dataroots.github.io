@@ -12,6 +12,11 @@
   width: 30%;
 }
 
+.custom-bottom-logo {
+
+  width: 60%;
+}
+
 .wrap {
   position: absolute;
   top: 48%;
@@ -29,6 +34,11 @@
   height: 3px;
   border-radius: 50%;
   opacity: 0;
+}
+
+.testimonial-section .section-title--l5 {
+
+  padding-bottom: 0;
 }
 
 .c:nth-child(1) {
@@ -8435,5 +8445,34 @@
   }
   100% {
     transform: rotateZ(-259deg) rotateY(45deg) translateX(600px) rotateZ(259deg);
+  }
+}
+
+@media only screen and (max-width: 992px) {
+
+  .about-us-custom-padding {
+
+    padding-bottom: 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+
+  .brand-logo {
+
+    width: 70%;
+  }
+
+  .custom-logo {
+
+    width: 36%;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+
+  .custom-logo {
+
+    width: 50%;
   }
 }
