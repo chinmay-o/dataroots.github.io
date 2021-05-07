@@ -1,3 +1,26 @@
+
+
+$("#Service").click(function() {
+
+    $('html, body').animate({
+        scrollTop: $("#ServiceContent").offset().top - 120
+      }, 1000);
+});
+
+$("#AboutUs").click(function() {
+
+    $('html, body').animate({
+        scrollTop: $("#AboutUsContent").offset().top - 120
+      }, 1000);
+});
+
+$("#Contact").click(function() {
+
+    $('html, body').animate({
+        scrollTop: $("#ContactContent").offset().top - 120
+      }, 1000);
+});
+
 "use strict";
 $(document).ready(function() {
     $("select").niceSelect();
@@ -602,12 +625,12 @@ $(document).ready(function() {
 <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
 
 $(window).load(function() {
-    // setTimeout(function() {
-    //     $("#loading").fadeOut(1800);
-    // }, 2200);
+    setTimeout(function() {
+        $("#loading").fadeOut(1000);
+    }, 2200);
     setTimeout(function() {
         $("#loading").remove();
-    }, 2200);
+    }, 3200);
 });
 
 var lang = {
