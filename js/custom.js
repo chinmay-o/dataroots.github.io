@@ -14,6 +14,13 @@ $("#AboutUs").click(function() {
       }, 1000);
 });
 
+$("#Testimonial").click(function() {
+
+    $('html, body').animate({
+        scrollTop: $("#TestimonialContent").offset().top - 120
+      }, 1000);
+});
+
 $("#Contact").click(function() {
 
     $('html, body').animate({

@@ -12606,7 +12606,8 @@ ________________________________ */
   width: 5%;
   position: relative;
   border: 6px solid #ffffff;
-  background-color: #ff5722;
+  /* background-color: #ff5722; */
+  background-color: #1345a8;
   border-radius: 50%;
   z-index: 1;
 }
