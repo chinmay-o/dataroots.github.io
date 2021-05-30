@@ -10018,7 +10018,7 @@ ________________________________ */
 ------------------------------*/
 .welcome-area--l5 {
   padding-top: 130px;
-  padding-bottom: 40px;
+  padding-bottom: -220px;
   background-size: cover;
   background-position: right top;
   position: relative;
@@ -10051,7 +10051,7 @@ ________________________________ */
   position: absolute;
   left: 0;
   top: 0;
-  background-image: url(../image/home-5/hero-bg-overlay.png);
+  /* background-image: url(../image/home-5/hero-bg-overlay.png); */
   width: 100%;
   height: 100%;
   z-index: -1;

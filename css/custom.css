@@ -3,34 +3,8 @@
 .particles {
 
   height: 100%;
-  background: black;
+  background: #0086d4;
   overflow: hidden;
-}
-
-.wrap {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 0;
-  height: 0;
-  transform-style: preserve-3d;
-  perspective: 1000px;
-  animation: rotate 14s infinite linear;
-  z-index: -1;
-}
-
-.c {
-  position: absolute;
-  width: 4px;
-  height: 4px;
-  border-radius: 50%;
-  opacity: 0;
-}
-
-.c:nth-child(1) {
-  animation: orbit1 14s infinite;
-  animation-delay: 0.01s;
-  background-color: red;
 }
 
 .custom-logo {
