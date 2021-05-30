@@ -55,4 +55,37 @@
 
     width: 50%;
   }
+
+  .particles {
+
+    padding-top: 260px;
+    padding-bottom: 100px;
+  }
+}
+
+@media only screen and (max-width: 374px) {
+
+  .particles {
+
+    padding-top: 200px;
+    padding-bottom: 60px;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+
+  .particles {
+
+    padding-top: 180px;
+    padding-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 340px) {
+
+  .particles {
+
+    padding-top: 120px;
+    padding-bottom: 40px;
+  }
 }
