@@ -1075,14 +1075,14 @@ button:focus {
 
 .btn-primary {
   color: #000;
-  background-color: #ff5722;
-  border-color: #ff5722;
+  background-color: #C70039;
+  border-color: #C70039;
 }
 
 .btn-primary:hover {
   color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
+  background-color: #ff577f;
+  border-color: #ff577f;
 }
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
@@ -6998,7 +6998,7 @@ ________________________________ */
  =======> Home 3
 ---------------------------------*/
 .section-title--l3 .section-title__sub-heading {
-  color: #ff5722;
+  color: #ff1e38;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
@@ -7078,7 +7078,7 @@ ________________________________ */
 
 ---------------------------------*/
 .section-title--l5 .section-title__sub-heading {
-  color: #ff5722;
+  color: #ff1e38;
   font-size: 16px;
   font-weight: 500;
   letter-spacing: normal;
@@ -7097,7 +7097,7 @@ ________________________________ */
   bottom: 9px;
   width: 41px;
   height: 1px;
-  background-color: #ff5722;
+  background-color: #ff1e38;
 }
 
 .section-title--l5 .section-title__heading {
@@ -8133,7 +8133,7 @@ ________________________________ */
   font-weight: 500;
   letter-spacing: normal;
   line-height: 30px;
-  color: #ff5722;
+  color: #ff1e38;
   margin-bottom: 13px;
 }
 
@@ -10018,7 +10018,7 @@ ________________________________ */
 ------------------------------*/
 .welcome-area--l5 {
   padding-top: 130px;
-  padding-bottom: -220px;
+  padding-bottom: 40px;
   background-size: cover;
   background-position: right top;
   position: relative;
@@ -10051,7 +10051,7 @@ ________________________________ */
   position: absolute;
   left: 0;
   top: 0;
-  /* background-image: url(../image/home-5/hero-bg-overlay.png); */
+  background-image: url(../image/home-5/hero-bg-overlay.png);
   width: 100%;
   height: 100%;
   z-index: -1;
