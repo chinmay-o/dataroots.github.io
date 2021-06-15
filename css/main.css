@@ -1087,8 +1087,8 @@ button:focus {
 
 .btn-check:focus + .btn-primary, .btn-primary:focus {
   color: #000;
-  background-color: #ff7043;
-  border-color: #ff6838;
+  background-color: #ff5782;
+  border-color: #ff5782;
   box-shadow: 0 0 0 0.2rem rgba(217, 74, 29, 0.5);
 }
 
@@ -1096,8 +1096,8 @@ button:focus {
 .btn-check:active + .btn-primary, .btn-primary:active, .btn-primary.active,
 .show > .btn-primary.dropdown-toggle {
   color: #000;
-  background-color: #ff794e;
-  border-color: #ff6838;
+  background-color: #ff5782;
+  border-color: #ff5782;
 }
 
 .btn-check:checked + .btn-primary:focus,
